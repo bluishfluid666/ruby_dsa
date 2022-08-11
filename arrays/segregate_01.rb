@@ -20,7 +20,7 @@ def segregate(a)
   pivot = 0
   for i in 0...a.length
     if a[i] < 1
-      a[i],a[pivot] = a[pivot], a[i]
+      a[i], a[pivot] = a[pivot], a[i]
       pivot += 1
     end
   end
